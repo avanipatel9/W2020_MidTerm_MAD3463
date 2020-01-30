@@ -19,6 +19,16 @@ public class LambtonStringTools
         String str[] = s.split(" ");
         String [] temp = new String[13];
 
+        for(int i=0; i<str.length; i++)
+        {
+            temp[i] = str[str.length-1-i];
+            System.out.println(temp[i]);
+        }
+
+        
+
+
+
         return null;
     }
     
