@@ -58,7 +58,11 @@ public class LambtonStringTools
     {
         String originalstr = originalString;
         originalstr = originalstr.toLowerCase();
-        
+        if(originalstr.contains(findString))
+        {
+            originalstr.replace(findString,newString);
+            System.out.println(originalstr);
+        }
         return originalstr;
     }
 }
