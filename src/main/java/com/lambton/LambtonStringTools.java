@@ -18,18 +18,14 @@ public class LambtonStringTools
     {
 
             String str[] = s.split(" ");
-            String[] temp = new String[13];
-            String reverseString=null;
+            String[] temp = new String[s.length()];
+            String reverseString="";
             for (int i = 0; i < str.length; i++)
             {
                 temp[i] = str[str.length - 1 - i];
-                System.out.println(temp[i]);
+                //System.out.println(temp[i]);
+                reverseString = reverseString+" " +temp[i];
             }
-
-             reverseString = temp.toString();
-            //System.out.println(reverseString);
-
-
             return reverseString;
 
     }
@@ -37,6 +33,8 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
+        String name = s;
+
 
         return null;
     }
