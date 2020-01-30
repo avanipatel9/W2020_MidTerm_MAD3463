@@ -25,7 +25,8 @@ public class LambtonStringTools
             System.out.println(temp[i]);
         }
 
-        
+        String reverseString = temp.toString();
+        System.out.println(reverseString);
 
 
 
