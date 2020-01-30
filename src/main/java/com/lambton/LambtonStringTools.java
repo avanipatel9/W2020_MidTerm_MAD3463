@@ -26,11 +26,11 @@ public class LambtonStringTools
         }
 
         String reverseString = temp.toString();
-        System.out.println(reverseString);
+        //System.out.println(reverseString);
 
 
 
-        return null;
+        return reverseString;
     }
     
     //2 - FORMAT INITIALS OF STRING
